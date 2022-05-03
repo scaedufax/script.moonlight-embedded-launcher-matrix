@@ -35,7 +35,7 @@ def subprocess_runner(cmd, desc, wait=True, blockio=True):
             fd = proc.stdout.fileno()
             fl = fcntl.fcntl(fd, fcntl.F_GETFL)
             fcntl.fcntl(fd, fcntl.F_SETFL, fl | os.O_NONBLOCK)
-    return proc
+    return str(proc)
 
 
 def stop_old_container(container):

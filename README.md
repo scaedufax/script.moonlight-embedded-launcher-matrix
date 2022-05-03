@@ -1,13 +1,17 @@
 # script.moonlight-embedded-launcher
 Docker container/Kodi launcher for running moonlight-embedded on LibreELEC/Raspberry Pi systems.
 
+# About this fork
+
+Minor changes for the plugin to work with Matrix19/Libreelec 10 (e.g. on Raspi 3/3b/2/...)
+
 ## Background:
 This Docker container/Kodi addon-on was developed to enable moonlight game streaming on LibreELEC systems.  Since LibreELEC is a "just enough" distribution dependencies for moonlight-embedded are missing, requiring the use of a Docker container to run.  This add-on lets you launch moonlight-embedded from within Kodi and stream games/programs from your PC to your LibreELEC device.
 More info on moonlight-embedded can be found here:
 https://github.com/moonlight-stream/moonlight-embedded
 
 ## Prerequisites:
-- Raspberry Pi 2, 3 or 4 device with LibreELEC 9 installed, connected to local network via ethernet (preferred) or wifi. (Note that Raspberry Pi 4 devices can run the full featured moonlight-qt, see this repository for more info: https://github.com/veldenb/plugin.program.moonlight-qt)
+- Raspberry Pi 2, 3 or 4 device with LibreELEC 10 installed, connected to local network via ethernet (preferred) or wifi. (Note that Raspberry Pi 4 devices can run the full featured moonlight-qt, see this repository for more info: https://github.com/veldenb/plugin.program.moonlight-qt)
 - Gaming PC with Steam and Nvidia GeForce Experience installed, connected to local network via ethernet (preferred) or wifi
 - Basic familiarity with ssh and terminal for installation
 
@@ -22,7 +26,7 @@ Add-ons / Install from repository / LibreELEC Add-ons / Services / Docker
 ```
 3. SSH into your LibreELEC device, download/extract the latest release of this repository to your LibreELEC device. Then install via zip file inside the Kodi gui.
 ```sh
-wget https://github.com/clarkemw/script.moonlight-embedded-launcher/archive/v1.1/script.moonlight-embedded-launcher-1.1.zip
+wget https://github.com/shad0wfax-de/script.moonlight-embedded-launcher-matrix/archive/v1.1/script.moonlight-embedded-launcher-1.1.zip
 ```
 ```
 Kodi/Add-ons/Install from zip file/Select script.moonlight-embedded-launcher-1.1.zip

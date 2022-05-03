@@ -9,7 +9,7 @@ import sys
 import time
 import xbmc
 import xbmcgui
-from avahi import host_check
+from avahi_utils import host_check
 from utils import stop_old_container, subprocess_runner, wait_or_cancel
 
 
