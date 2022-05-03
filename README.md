@@ -26,7 +26,7 @@ Add-ons / Install from repository / LibreELEC Add-ons / Services / Docker
 ```
 3. SSH into your LibreELEC device, download/extract the latest release of this repository to your LibreELEC device. Then install via zip file inside the Kodi gui.
 ```sh
-wget https://github.com/shad0wfax-de/script.moonlight-embedded-launcher-matrix/archive/v1.1/script.moonlight-embedded-launcher-1.1.zip
+wget https://github.com/shad0wfax-de/script.moonlight-embedded-launcher-matrix/archive/refs/tags/v1.1.zip -O script.moonlight-embedded-launcher-matrix-1.1.zip
 ```
 ```
 Kodi/Add-ons/Install from zip file/Select script.moonlight-embedded-launcher-1.1.zip
